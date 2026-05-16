@@ -28,7 +28,7 @@ A professional, modern fitness and nutrition calculator web application built wi
 
 ```bash
 # Clone the repository
-git clone https://github.com/stemiliev/body-like-tea.git
+git clone https://github.com/daprinceniko-droid/gymdatafinal.git
 cd body-like-tea
 
 # Install dependencies
@@ -227,7 +227,8 @@ MIT License - See LICENSE file
 
 ## 👤 Author
 
-**Stefan Iliev** - University Project 2024
+**Nikolai Spek** - University Project 2026
+**Stefan Iliev** - University Project 2026
 
 ## 🙏 Acknowledgments
 
