@@ -3,9 +3,7 @@ import { Navigation } from './components/layout/Navigation';
 import Landing    from './pages/Landing';
 import Calculator from './pages/Calculator';
 import Breakdown  from './pages/Breakdown';
-import Profile    from './pages/Profile';
-import Journal    from './pages/Journal';
-import Progress   from './pages/Progress';
+import UnderConstruction from './pages/UnderConstruction';
 
 function App() {
   return (
@@ -15,9 +13,9 @@ function App() {
         <Route path="/"           element={<Landing />} />
         <Route path="/calculate"  element={<Calculator />} />
         <Route path="/breakdown"  element={<Breakdown />} />
-        <Route path="/profile"    element={<Profile />} />
-        <Route path="/journal"    element={<Journal />} />
-        <Route path="/progress"   element={<Progress />} />
+        <Route path="/profile"    element={<UnderConstruction pageName="Me" />} />
+        <Route path="/journal"    element={<UnderConstruction pageName="Journal" />} />
+        <Route path="/progress"   element={<UnderConstruction pageName="Progress" />} />
       </Routes>
     </Router>
   );

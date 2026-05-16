@@ -37,20 +37,20 @@ export default function Landing() {
     <div className="w-full overflow-hidden">
       {/* ── Hero (pink) ── */}
       <section className="relative flex flex-col items-center justify-start bg-pink-soft overflow-hidden">
-        <div className="relative w-full max-w-2xl mx-auto pt-8 px-6 text-center">
+        <div className="relative w-full max-w-2xl mx-auto pt-8 px-6 text-center flex flex-col items-center">
           <motion.img
             src={heroImg}
             alt="Smiling woman sipping tea"
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
-            className="w-full h-auto drop-shadow-xl"
+            className="relative z-10 w-full h-auto drop-shadow-xl mx-auto"
           />
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="absolute left-1/2 -translate-x-1/2 bottom-10 md:bottom-16 text-5xl md:text-7xl text-pink-ink text-shadow-soft whitespace-nowrap"
+            className="absolute inset-x-0 bottom-10 md:bottom-16 text-5xl md:text-7xl text-pink-ink text-shadow-soft whitespace-nowrap mx-auto z-50"
           >
             Body Like Tea
           </motion.h1>
